@@ -1,0 +1,14 @@
+{
+  "name": "estruturas-basicas",
+  "version": "1.0.0",
+  "description": "Exercícios que contemplam as operações fundamentais, estruturas de controle condicional e de repetição.",
+  "main": ".index.js",
+  "author": "Kayro França",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
