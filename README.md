@@ -13,14 +13,20 @@ Cada atividade está separada em uma pasta própria, contendo seus respectivos a
 
 ## 🚀 Como executar uma atividade
 
-1. Acesse a pasta da atividade desejada:
+1. Clone o repositório
+
+```bash
+git clone https://github.com/Kako-0/maisprati.git
+```
+
+2. Acesse a pasta da atividade desejada:
 
 ```bash
 # Exemplo:
 cd atividade01-estruturas-basicas-e-de-repeticoes
 ```
 
-2. Instale as dependências (caso haja `package.json`):
+3. Instale as dependências (caso haja `package.json`):
 
 ```bash
 yarn install
@@ -28,7 +34,7 @@ yarn install
 npm install
 ```
 
-3. Execute o código:
+4. Execute o código:
 
 ```bash
 yarn start
