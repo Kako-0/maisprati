@@ -5,6 +5,7 @@ Cada atividade está separada em uma pasta própria, contendo seus respectivos a
 ## 📅 Atividades
 
 - [Atividade 01 - Estruturas básicas e de repetição](./atividade01-estruturas-basicas-e-de-repeticoes)
+- [Atividade 02 - Aplicando conceitos intermediários em JS](./atividade02-conceitos-intermediarios-js/)
 
 ## ✅ Requisitos
 
@@ -17,6 +18,12 @@ Cada atividade está separada em uma pasta própria, contendo seus respectivos a
 
 ```bash
 git clone https://github.com/Kako-0/maisprati.git
+```
+
+-OBS: Caso já possua este repósitorio localmente, apenas o atualize com:
+
+```bash
+git pull
 ```
 
 2. Acesse a pasta da atividade desejada:

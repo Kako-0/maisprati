@@ -1,0 +1,14 @@
+{
+  "name": "conceitos-intermediarios-em-js",
+  "version": "1.0.0",
+  "description": "Exercícios que contemplam as operações fundamentais, estruturas de controle, vetores, funções e recursão.",
+  "main": ".index.js",
+  "author": "Kayro França",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
