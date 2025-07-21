@@ -7,6 +7,7 @@ Cada atividade está separada em uma pasta própria, contendo seus respectivos a
 - [Atividade 01 - Estruturas básicas e de repetição](./atividade01-estruturas-basicas-e-de-repeticoes)
 - [Atividade 02 - Aplicando conceitos intermediários em JS](./atividade02-conceitos-intermediarios-js/)
 - [Atividade 03 - Desenvolvimento web básico](./atividade03-desenvolvimento-web-basico/)
+- [Atividade 04 - Perfil pessoal](./atividade04-perfil-pessoal/)
 
 ## ✅ Requisitos
 
