@@ -1,0 +1,50 @@
+/* 
+4. CSS Básico e Box Model - Crie um arquivo styles.css e vincule-o em
+index.html:
+- Defina cores de fundo (background-color) e de texto (color) para <header>,
+<main> e <footer>.
+- Para cada uma dessas seções, aplique margin, padding e border de forma a
+evidenciar seus contornos.
+*/
+header {
+  background-color: #666666;
+  color: #f0f0f0;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #ff0000;
+}
+main {
+  background-color: #666666;
+  color: #f0f0f0;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #000000;
+}
+footer {
+  background-color: #333;
+  color: #f0f0f0;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #ff0000;
+}
+
+/* 
+5. Seletores e Propriedades - No mesmo styles.css, adicione:
+- Um estilo para todas as tags <h2> que aumente a font-size e aplique text-
+decoration: underline.
+- Uma classe .destaque que deixe o texto em itálico (font-style: italic) e aplique
+um leve background-color.
+- Um ID #importante que adicione border-top mais espessa em um parágrafo
+específico.
+*/
+h2 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+.destaque {
+  font-style: italic;
+  background-color: #000000;
+}
+#importante {
+  border-top: 3px solid #ff0000;
+}

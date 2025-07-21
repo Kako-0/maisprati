@@ -1,0 +1,73 @@
+<!-- 
+7. Menu Hamburger - implemente um menu “hamburger” que:
+- Apareça apenas em telas com largura ≤ 600 px.
+- Oculte a navegação padrão e abra/feche o menu ao ser clicado. 
+-->
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item 07</title>
+</head>
+
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .menu {
+            display: none;
+            flex-direction: column;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 0;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+
+        @media (max-width: 600px) {
+            .hamburger {
+                display: block;
+                background-color: #333;
+                color: #f0f0f0;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .menu {
+                display: flex;
+            }
+        }
+    </style>
+
+    <div class="hamburger" onclick="toggleMenu()">☰ Menu</div>
+    <nav class="menu" id="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            if (menu.style.display === 'flex') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'flex';
+            }
+        }
+    </script>
+</body>
+
+</html>

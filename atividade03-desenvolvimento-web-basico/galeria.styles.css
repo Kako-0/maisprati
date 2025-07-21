@@ -1,0 +1,30 @@
+/*  
+6. Exercício Grid e Flexbox - Monte uma galeria com oito imagens e legendas,
+organizadas por Grid. Além disso, envolva toda a galeria em um contêiner que
+utilize Flexbox para centralizar o conjunto na página e permitir que as figuras
+quebrem de linha quando a largura for limitada. Ajuste o número de colunas do
+Grid para telas menores por meio de media query. 
+*/
+
+.galeria-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+}
+.galeria img {
+  width: 100%;
+  height: auto;
+}
+.galeria figcaption {
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+}
