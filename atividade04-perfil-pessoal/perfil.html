@@ -1,0 +1,118 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Kayro França - Desenvolvedor Front-end</title>
+</head>
+
+<body>
+    <header>
+        <h1>Kayro França</h1>
+        <p>Desenvolvedor front-end focado em experiências modernas e intuitivas</p>
+    </header>
+    <div class="hamburguer" onclick="toggleMenu()">☰ Menu</div>
+    <nav id="menu">
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou Desenvolvedor de Software com foco em Front-end, com mais
+                de 3 anos de experiência em aplicações web. Atuei com tecnologias
+                como React, Vue e Svelte, desenvolvendo interfaces responsivas,
+                integradas a APIs, com atenção à performance, acessibilidade e
+                boas práticas de UI/UX.
+            </p>
+            <p>No back-end, já trabalhei com Node.js e Laravel, construindo APIs
+                RESTful, realizando integrações, validações e organizando fluxos
+                assíncronos com filas e cache. Tenho familiaridade com bancos
+                relacionais via Prisma e Eloquent, além de versionamento com Git e
+                uso de Docker para containerizar ambientes de desenvolvimento.</p>
+            <p>Tenho facilidade em trabalhar em times multidisciplinares, com boa
+                comunicação, colaboração, adaptabilidade e foco em soluções que
+                integrem diferentes perspectivas e áreas.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>React, Svelte, Vue, Next.js</li>
+                <li>TypeScript, Tailwind CSS, Jest</li>
+                <li>Node.js, Express, Nest.js, Prisma</li>
+                <li>Git, Docker, AWS S3</li>
+                <li>Metodologias ágeis: Scrum e Kanban</li>
+            </ul>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+
+            <article>
+                <h3>Catálogo de Produtos com Scroll Infinito</h3>
+                <p>
+                    Aplicação desenvolvida em React e Tailwind CSS com scroll infinito usando IntersectionObserver e
+                    Server Actions. Possuitestes com Jest e RTL, e arquitetura baseada em features.
+                </p>
+            </article>
+
+            <article>
+                <h3>Sistema de Leads</h3>
+                <p>
+                    Sistema de gerenciamento de leads com SvelteKit, rotas dinâmicas e redirecionamentos condicionais.
+                    Backend em Node.js, Express e Prisma, com API RESTful organizada.
+                </p>
+            </article>
+
+            <article>
+                <h3>App de Autenticação</h3>
+                <p>
+                    Aplicativo com login, cadastro e perfil usando Svelte e Axios. Backend com Node.js, Prisma e API
+                    RESTful, estruturado com princípios SOLID.
+                </p>
+            </article>
+            <article>
+                <h3>Clonagem de Site Institucional com Next.js e Framer Motion</h3>
+                <p>
+                    Desenvolvi o clone de um site institucional como estudo prático para aprimorar habilidades com
+                    Next.js e Framer Motion.
+                </p>
+                <p>
+                    O projeto incluiu otimizações de responsividade, animações suaves e melhorias na experiência do
+                    usuário, com foco em performance e interação.
+                </p>
+            </article>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:kayro.dev@gmail.com" class="link-email">kayro.dev@gmail.com</a></p>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Redes Sociais</h3>
+        <a href="https://github.com/Kako-0" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kayro-franca/" target="_blank">LinkedIn</a>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Kayro França. Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('open');
+        }
+    </script>
+</body>
+
+</html>
